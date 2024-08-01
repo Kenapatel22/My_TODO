@@ -1,0 +1,46 @@
+/* Create.module.css */
+
+.createContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+  }
+  
+  .createContainer input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 1rem;
+    width: 50%;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+  }
+  
+  .createContainer input:focus {
+    border-color: #01335c;
+    outline: none;
+  }
+  
+  .createContainer button {
+    padding: 10px 20px;
+    background-color: #720101;
+    border: none;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .createContainer button:hover {
+    background-color: #e84853;
+  }
+  

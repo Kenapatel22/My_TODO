@@ -1,0 +1,46 @@
+/* index.css */
+
+/* Ensure a consistent base styling */
+* {
+    margin: auto;
+    padding: auto;
+    box-sizing: border-box;
+  }
+  
+  /* Set a background color and basic text color */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #860202;
+  }
+  
+  /* Center the main content and ensure it uses the full height of the viewport */
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #fff;
+  }
+  
+  /* Optional: Define basic styles for links, headings, and other elements */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+  }
+  
+  button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+  }
+  
